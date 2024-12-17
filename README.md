@@ -1,6 +1,5 @@
 # Fine-Tuning Regression Model
 
-![Project Logo](img/regression_0001.png)
 
 
 ## Tesla Stock Price Predictor With Regression
