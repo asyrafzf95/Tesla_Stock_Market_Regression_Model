@@ -1,7 +1,7 @@
 # Fine-Tuning Regression Model
-<small style="display: block; margin-top: -10px">Obligatory Assignment for [Introduction to A.I.](https://student.oslomet.no/studier/-/studieinfo/emne/DAVE3625/2023/H%C3%98ST) @ OsloMet</small>
+
 ![Project Logo](img/regression_0001.png)
-[To notebook](https://nbviewer.org/github/pholdahl/Fine-tuning-regression-model/blob/main/fine-tuning-regression-model.ipynb)
+
 
 ## Tesla Stock Price Predictor With Regression
 
@@ -21,7 +21,6 @@
 ### About the Project
 This project is a Jupyter Notebook that analyzes how a regression model can be tuned to predict the stock market prices of Tesla (TSLA). 
 The objective was to create a prediction algorithm to forecast the closing price of Tesla stock on a specific date. 
-This was a group assignment, but the implementation was primarily done by me, with the group choosing my version as the final submission.
 
 ### Why Use a Regression Algorithm?
 - Regression algorithms are used in machine learning to predict continuous values, such as stock prices.
@@ -34,7 +33,7 @@ Since stock prices are continuous and quantitative, regression is the correct ty
 - There are several different types of regression algorithms that can handle different levels of complexity in the data. For example, 
 a linear regression algorithm may fit simple linear trends while more complex methods may capture non-linear patterns.
 
-### What Do We Use in This Project and Why?
+### What Do I Use in This Project and Why?
 In our project, we first look at a linear model, which naturally is a bit simple for the data. We then move on to a polynomial model, 
 which seems to fit the data much better. In the end, we try to combine the polynomial model with Ridge regression, which in our case turns out to fit our data even better.
 - Going from a linear to a polynomial and then adding Ridge regression is an iterative approach in model building.
@@ -53,8 +52,8 @@ which seems to fit the data much better. In the end, we try to combine the polyn
 
 ## Conclusion
 Through this project, we explored different regression models to predict Tesla stock prices based on historical data. 
-We implemented and compared simple linear regression, polynomial regression, and a combination of polynomial regression with Ridge regression. 
-While we achieved a certain level of accuracy, when looking at the graph the model does show signs of being overfitted on the training data.
+I implemented and compared simple linear regression, polynomial regression, and a combination of polynomial regression with Ridge regression. 
+While I achieved a certain level of accuracy, when looking at the graph the model does show signs of being overfitted on the training data.
 
 Stock prices are inherently volatile and influenced by a wide range of factors that are not captured in historical price data alone. 
 Real-world events, market sentiment, economic indicators, and company-specific news all play critical roles in determining stock prices. 
@@ -79,31 +78,6 @@ It also highlighted the importance of considering a broader range of data inputs
 
 ### Data Source
 The historical stock price data for Tesla (TSLA) was sourced from Yahoo Finance.
-
-### Steps to Run the Project
-1. **Clone the repository:**
-  ```sh
-    git clone https://github.com/yourusername/Fine-tuning-regression-model.git
-  ```
-2. **Navigate to the project directory:**
-  ```sh
-    cd Fine-tuning-regression-model
-  ```
-3. **Install the required libraries:**
-  ```sh
-    pip install numpy matplotlib pandas seaborn scikit-learn
-  ```
-4. **Open the Jupyter Notebook:**
-  ```sh
-    jupyter notebook
-  ```
-5. **Run the notebook:**
-  - Execute the cells in the notebook to see the data analysis, model implementation, and predictions.
-
-### Contributors
-- [LKielland](https://github.com/LKielland)
-- [ingridlunde](https://github.com/ingridlunde)
-- [pholdahl](https://github.com/pholdahl)
 
 ### License
 This project is licensed under the MIT License.
